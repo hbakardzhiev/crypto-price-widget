@@ -16,6 +16,8 @@ void whenPushed(Fl_Widget *, void *) { printf("Clicked\n"); }
 void exitWhenPushed(Fl_Widget *, void *) { exit(0); }
 void setTextWhenActivated() {}
 
+// Spot price https: api.coinbase.com/v2/prices/btc-usd/spot
+
 int main() {
   auto window = new Fl_Window(0, 0, 300, 300);
   auto button = new Fl_Button(0, 0, 100, 40, "Click ME");
